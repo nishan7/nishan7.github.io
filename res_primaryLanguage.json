@@ -1,0 +1,137 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Nishan Paudel, an experienced Software Engineer with over 3 years of industry experience. I've built and maintained large-scale distributed systems and web services, and I'm passionate about cloud-native technologies—Docker, Kubernetes, Grafana—and cost-efficient, compliant architectures. Currently pursuing my MSSE at San José State University while working as a Senior Software Engineer at MoEngage.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "BridgeWorks",
+        "startDate": "2024",
+        "description": "A community-driven platform that empowers unhoused and at-risk individuals in San José by connecting them with short-term gigs and services. Built as part of SJ-Hacks hackathon, this project demonstrates full-stack development skills and social impact focus.",
+        "images": [
+          "images/portfolio/bridgeworks/p1.jpg",
+          "images/portfolio/bridgeworks/p2.jpg"
+        ],
+        "url": "https://github.com/SJ-Hacks/Bridge-Work",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-amazonwebservices-original",
+            "name": "AWS"
+          }
+        ]
+      },
+      {
+        "title": "Google-Colab-Torrent-Downloader",
+        "startDate": "2023",
+        "description": "A Python-based tool that allows users to download torrents directly in Google Colab and save them to Google Drive. This project showcases automation skills and cloud integration capabilities.",
+        "images": [
+          "images/portfolio/torrent-downloader/p1.jpg",
+          "images/portfolio/torrent-downloader/p2.jpg"
+        ],
+        "url": "https://github.com/nishan7/Google-Colab-Torrent-Downloader",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-google-plain",
+            "name": "Google Colab"
+          },
+          {
+            "class": "devicon-git-plain",
+            "name": "Git"
+          }
+        ]
+      },
+      {
+        "title": "Recommender-Online",
+        "startDate": "2023",
+        "description": "A Flask-based web application that provides movie recommendations based on user preferences and similar movies. Features machine learning algorithms for personalized recommendations and a clean, responsive UI.",
+        "images": [
+          "images/portfolio/recommender/p1.jpg",
+          "images/portfolio/recommender/p2.jpg"
+        ],
+        "url": "https://github.com/nishan7/Recommender-Online",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-flask-plain",
+            "name": "Flask"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "MoEngage",
+        "title": "Senior Software Engineer",
+        "years": "11.2022 - 12.2024",
+        "mainTech": [
+          "Python", "Java", "Docker", "Kubernetes"
+        ],
+        "technologies": [
+          "AWS",
+          "Azure",
+          "Grafana",
+          "REST APIs",
+          "Microservices",
+          "GDPR Compliance",
+          "PII Encryption",
+          "Cost Optimization"
+        ]
+      },
+      {
+        "company": "Affinsys AI",
+        "title": "Software Engineer",
+        "years": "08.2021 - 11.2022",
+        "mainTech": [
+          "Python", "Flask", "React"
+        ],
+        "technologies": [
+          "REST APIs",
+          "Azure AD",
+          "LDAP",
+          "OAuth2",
+          "RBAC",
+          "Microservices",
+          "Multi-tenant Architecture"
+        ]
+      },
+      {
+        "company": "Affinsys AI",
+        "title": "Intern",
+        "years": "03.2021 - 08.2021",
+        "mainTech": [
+          "JavaScript", "React", "Java"
+        ],
+        "technologies": [
+          "Merchant Portal",
+          "QR Generation",
+          "Payment Processing",
+          "User Onboarding"
+        ]
+      }
+    ]
+  }
