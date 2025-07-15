@@ -19,6 +19,11 @@
         "name": "envelope",
         "url": "mailto:paudelnishan55@gmail.com",
         "class": "fas fa-envelope"
+      },
+      {
+        "name": "phone",
+        "url": "tel:+1-510-660-9087",
+        "class": "fas fa-phone"
       }
     ],
     "image": "myProfile.jpg"
@@ -26,14 +31,14 @@
   "skills": {
     "icons": [
       {
-        "name": "Python",
-        "class": "devicon-python-plain",
-        "level": "90"
-      },
-      {
         "name": "Java",
         "class": "devicon-java-plain",
         "level": "85"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "90"
       },
       {
         "name": "JavaScript",
@@ -51,11 +56,6 @@
         "level": "85"
       },
       {
-        "name": "Kubernetes",
-        "class": "devicon-kubernetes-plain",
-        "level": "80"
-      },
-      {
         "name": "Azure",
         "class": "devicon-microsoftsqlserver-plain",
         "level": "80"
@@ -66,9 +66,19 @@
         "level": "90"
       },
       {
-        "name": "Flask",
-        "class": "devicon-flask-plain",
-        "level": "85"
+        "name": "AWS",
+        "class": "devicon-amazonwebservices-plain",
+        "level": "80"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "80"
+      },
+      {
+        "name": "PostgresDB",
+        "class": "devicon-postgresql-plain",
+        "level": "80"
       }
     ]
   }
