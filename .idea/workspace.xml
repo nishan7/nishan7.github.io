@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a9f99b3-c826-4c7b-a1a1-89f83fd932c3" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/public/images/company_images/affinsys.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/company_images/moengage.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/portfolio/img.png" afterDir="false" />
+    <list default="true" id="7a9f99b3-c826-4c7b-a1a1-89f83fd932c3" name="Changes" comment="Adding new design changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/themes/theme-light.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/themes/theme-light.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
+    "settings.editor.selected.configurable": "watcher.settings",
     "ts.external.directory.path": "/Users/nishan/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -97,7 +97,7 @@
       <workItem from="1752533751344" duration="4375000" />
       <workItem from="1752544486907" duration="1841000" />
       <workItem from="1752552451724" duration="1000000" />
-      <workItem from="1752553460727" duration="99000" />
+      <workItem from="1752553460727" duration="4460000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -107,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752533207368</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding new design changes">
+      <option name="closed" value="true" />
+      <created>1752553584396</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752553584396</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +147,7 @@
       <path value="$PROJECT_DIR$/portfolio" />
     </ignored-roots>
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="Adding new design changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding new design changes" />
   </component>
 </project>
