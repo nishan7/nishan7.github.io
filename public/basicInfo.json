@@ -1,0 +1,85 @@
+{
+  "basic_info": {
+    "name": "Nishan Paudel",
+    "titles": [
+      "MSSE Student"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/nishan7",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://linkedin.com/in/paudelnishan",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "envelope",
+        "url": "mailto:paudelnishan55@gmail.com",
+        "class": "fas fa-envelope"
+      },
+      {
+        "name": "phone",
+        "url": "tel:+1-510-660-9087",
+        "class": "fas fa-phone"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "Java",
+        "class": "devicon-java-plain",
+        "level": "85"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "90"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "80"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-original",
+        "level": "75"
+      },
+      {
+        "name": "Docker",
+        "class": "devicon-docker-plain",
+        "level": "85"
+      },
+      {
+        "name": "Azure",
+        "class": "devicon-microsoftsqlserver-plain",
+        "level": "80"
+      },
+      {
+        "name": "Git",
+        "class": "devicon-git-plain",
+        "level": "90"
+      },
+      {
+        "name": "AWS",
+        "class": "devicon-amazonwebservices-plain",
+        "level": "80"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "80"
+      },
+      {
+        "name": "PostgresDB",
+        "class": "devicon-postgresql-plain",
+        "level": "80"
+      }
+    ]
+  }
+}
