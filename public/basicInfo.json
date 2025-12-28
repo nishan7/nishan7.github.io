@@ -46,9 +46,24 @@
         "level": "80"
       },
       {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
+        "level": "80"
+      },
+      {
         "name": "React",
         "class": "devicon-react-original",
         "level": "75"
+      },
+      {
+        "name": "Spring Boot",
+        "class": "devicon-spring-plain",
+        "level": "80"
+      },
+      {
+        "name": "Django",
+        "class": "devicon-django-plain",
+        "level": "80"
       },
       {
         "name": "Docker",
@@ -56,8 +71,18 @@
         "level": "85"
       },
       {
+        "name": "Kubernetes",
+        "class": "devicon-kubernetes-plain",
+        "level": "80"
+      },
+      {
+        "name": "AWS",
+        "class": "devicon-amazonwebservices-plain-wordmark",
+        "level": "80"
+      },
+      {
         "name": "Azure",
-        "class": "devicon-microsoftsqlserver-plain",
+        "class": "devicon-azure-plain",
         "level": "80"
       },
       {
@@ -66,18 +91,38 @@
         "level": "90"
       },
       {
-        "name": "AWS",
-        "class": "devicon-amazonwebservices-plain",
-        "level": "80"
-      },
-      {
         "name": "MongoDB",
         "class": "devicon-mongodb-plain",
         "level": "80"
       },
       {
-        "name": "PostgresDB",
+        "name": "PostgreSQL",
         "class": "devicon-postgresql-plain",
+        "level": "80"
+      },
+      {
+        "name": "Redis",
+        "class": "devicon-redis-plain",
+        "level": "75"
+      },
+      {
+        "name": "Kafka",
+        "class": "devicon-apachekafka-original",
+        "level": "75"
+      },
+      {
+        "name": "Linux",
+        "class": "devicon-linux-plain",
+        "level": "85"
+      },
+      {
+        "name": "PyTorch",
+        "class": "devicon-pytorch-original",
+        "level": "75"
+      },
+      {
+        "name": "OAuth2",
+        "class": "fas fa-key",
         "level": "80"
       }
     ]

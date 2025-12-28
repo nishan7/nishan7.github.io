@@ -4,17 +4,17 @@ class Skills extends Component {
   render() {
     if (this.props.sharedSkills && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.skills;
-      var skills = this.props.sharedSkills.icons.map(function (skills, i) {
+      var skills = this.props.sharedSkills.icons.map(function (skill, i) {
         return (
-          <li className="list-inline-item mx-3" key={i}>
+          <li className="list-inline-item mx-3" key={i} style={{ marginBottom: '20px' }}>
             <span>
               <div className="text-center skills-tile">
-                <i className={skills.class} style={{ fontSize: "220%" }}>
+                <i className={skill.class} style={{ fontSize: "220%" }}>
                   <p
                     className="text-center"
                     style={{ fontSize: "30%", marginTop: "4px" }}
                   >
-                    {skills.name}
+                    {skill.name}
                   </p>
                 </i>
               </div>
@@ -28,12 +28,20 @@ class Skills extends Component {
       <section id="skills">
         <div className="col-md-12">
           <div className="col-md-12">
-            <h1 className="section-title"  style={{ color: "black" }}>
+            <h1 className="section-title" style={{ color: "black" }}>
               <span>{sectionName}</span>
             </h1>
           </div>
           <div className="col-md-12 text-center">
-            <ul className="list-inline mx-auto skill-icon">{skills}</ul>
+            <ul className="list-inline mx-auto skill-icon" style={{ 
+              maxWidth: '900px', 
+              display: 'flex', 
+              flexWrap: 'wrap', 
+              justifyContent: 'center',
+              padding: '0'
+            }}>
+              {skills}
+            </ul>
           </div>
         </div>
       </section>

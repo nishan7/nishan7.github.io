@@ -1,71 +1,97 @@
 import React, { Component } from "react";
 
 class Projects extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
-      var projects = this.props.resumeProjects.map(function (projects) {
+      var projects = this.props.resumeProjects.map(function (project) {
         return (
           <div
-            className="col-sm-12 col-md-6 col-lg-3 project-card-fixed"
-            key={projects.title}
+            key={project.title}
             style={{
-              height: '150px !important',
-              marginBottom: '1rem'
+              margin: '10px',
+              width: '280px'
             }}
           >
-
-            {projects.url ? (
-              <a href={projects.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit', width: '100%', height: '100%', display: 'block' }}>
-                <span className="portfolio-item d-block" style={{ height: '100% !important' }}>
-                  <div className="foto" style={{ height: '100% !important' }}>
-                    <div style={{ height: '100% !important', padding: '3px !important' }}>
+            {project.url ? (
+              <a href={project.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <span className="portfolio-item d-block">
+                  <div className="foto" style={{ 
+                    minHeight: '320px',
+                    display: 'flex',
+                    flexDirection: 'column'
+                  }}>
+                    <div style={{ padding: '10px' }}>
                       <img
-                        src={projects.images[0]}
-                        alt="projectImages"
-                        height="100"
+                        src={project.images[0]}
+                        alt={project.title}
                         style={{
-                          marginBottom: 0, 
-                          paddingBottom: 0, 
-                          position: 'relative',
+                          marginBottom: '10px', 
                           width: '100%',
+                          height: '160px',
                           objectFit: 'cover',
                           objectPosition: 'center',
                           borderRadius: '8px'
                         }}
                       />
-                      <p className="project-title-settings mt-1" style={{ marginTop: '3px !important', fontSize: '12px', marginBottom: '0 !important' }}>
-                        {projects.title}
+                      <p className="project-title-settings" style={{ fontSize: '13px', fontWeight: '600', marginBottom: '8px', lineHeight: '1.2' }}>
+                        {project.title}
                       </p>
+                      {project.bullets && (
+                        <ul className="project-bullets" style={{ 
+                          fontSize: '10px', 
+                          textAlign: 'left', 
+                          paddingLeft: '14px', 
+                          margin: '0',
+                          lineHeight: '1.35',
+                          color: '#333'
+                        }}>
+                          {project.bullets.map((bullet, index) => (
+                            <li key={index} style={{ marginBottom: '3px' }}>{bullet}</li>
+                          ))}
+                        </ul>
+                      )}
                     </div>
                   </div>
                 </span>
               </a>
             ) : (
-              <span className="portfolio-item d-block" style={{ height: '100% !important' }}>
-                <div className="foto" style={{ height: '100% !important' }}>
-                  <div style={{ height: '100% !important', padding: '3px !important' }}>
+              <span className="portfolio-item d-block">
+                <div className="foto" style={{ 
+                  minHeight: '320px',
+                  display: 'flex',
+                  flexDirection: 'column'
+                }}>
+                  <div style={{ padding: '10px' }}>
                     <img
-                      src={projects.images[0]}
-                      alt="projectImages"
-                      height="100"
+                      src={project.images[0]}
+                      alt={project.title}
                       style={{
-                        marginBottom: 0, 
-                        paddingBottom: 0, 
-                        position: 'relative',
+                        marginBottom: '10px', 
                         width: '100%',
+                        height: '160px',
                         objectFit: 'cover',
                         objectPosition: 'center',
                         borderRadius: '8px'
                       }}
                     />
-                    <p className="project-title-settings mt-1" style={{ marginTop: '3px !important', fontSize: '12px', marginBottom: '0 !important' }}>
-                      {projects.title}
+                    <p className="project-title-settings" style={{ fontSize: '13px', fontWeight: '600', marginBottom: '8px', lineHeight: '1.2' }}>
+                      {project.title}
                     </p>
+                    {project.bullets && (
+                      <ul className="project-bullets" style={{ 
+                        fontSize: '10px', 
+                        textAlign: 'left', 
+                        paddingLeft: '14px', 
+                        margin: '0',
+                        lineHeight: '1.35',
+                        color: '#333'
+                      }}>
+                        {project.bullets.map((bullet, index) => (
+                          <li key={index} style={{ marginBottom: '3px' }}>{bullet}</li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
                 </div>
               </span>
@@ -81,8 +107,14 @@ class Projects extends Component {
           <h1 className="section-title" style={{ color: "black" }}>
             <span>{sectionName}</span>
           </h1>
-          <div className="col-md-12 mx-auto">
-            <div className="row mx-auto justify-content-center">{projects}</div>
+          <div style={{ 
+            display: 'flex', 
+            flexWrap: 'wrap', 
+            justifyContent: 'center',
+            maxWidth: '940px',
+            margin: '0 auto'
+          }}>
+            {projects}
           </div>
         </div>
       </section>

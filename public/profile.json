@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 I'm Nishan Paudel, an experienced Software Engineer with over 3 years of industry experience. I've built and maintained large-scale distributed systems and web services. I'm passionate about cloud-native technologies—Docker, Kubernetes, Grafana. Currently pursuing my MSSE at San José State University.",
+    "description": "👋 I’m Nishan Paudel, a Software Engineer with 3+ years of industry experience. I have built and maintained large-scale distributed systems and web services. My work spans cloud-native and AI-driven systems using Docker, Kubernetes, Grafana and modern ML frameworks. I am focused on applying machine learning and AI to build scalable and intelligent platforms. Currently pursuing my MSSE with a concentration in AI at San José State University",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -11,28 +11,82 @@
   },
   "projects": [
     {
+      "title": "Safeguard AI",
+      "startDate": "2025",
+      "images": [
+        "images/project images/safeguard_ai.png"
+      ],
+      "url": "https://github.com/Mongo-db-hackathon/safeguard-ai",
+      "bullets": [
+        "Multi-agent video analysis system using OpenAI, MongoDB, and RAG",
+        "Delivers timestamp-cited answers from transcript and frame context",
+        "Two-agent orchestration with LangChain and LLaMA for queries"
+      ]
+    },
+    {
+      "title": "Hybrid DDoS IDS",
+      "startDate": "2024",
+      "images": [
+        "images/project images/ddos_ids.png"
+      ],
+      "url": "https://github.com/SecurityProject279/Hybrid-IDS",
+      "bullets": [
+        "Hybrid ML and Rule-Based system for real-time DDoS detection",
+        "GPU-accelerated training with RAPIDS cuML achieving 99% recall",
+        "API-based inference with FastAPI and Kafka for real-time monitoring"
+      ]
+    },
+    {
+      "title": "Restaurant Booking",
+      "startDate": "2024",
+      "images": [
+        "images/project images/restaurant_booking.png"
+      ],
+      "url": "https://github.com/gopinathsjsu/team-project-20202-paladins",
+      "bullets": [
+        "Full-stack React/Spring Boot microservice booking system",
+        "Real-time search, reservations, and admin workflow",
+        "CI/CD with GitHub Actions and AWS auto-scaling deployment"
+      ]
+    },
+    {
+      "title": "GitCast",
+      "startDate": "2025",
+      "images": [
+        "images/project images/gitcast_image.png"
+      ],
+      "url": "https://github.com/sakshat-patil/GitTranslate",
+      "bullets": [
+        "Agentic pipeline using Python, LangChain and Claude",
+        "Transforms GitHub repos into podcast episodes",
+        "FastAPI backends with async workers on AWS Lambda"
+      ]
+    },
+    {
       "title": "BridgeWorks",
       "startDate": "2024",
       "images": [
         "images/project images/bridgeworks_image.png"
       ],
-      "url": "https://github.com/SJ-Hacks/Bridge-Work"
+      "url": "https://github.com/SJ-Hacks/Bridge-Work",
+      "bullets": [
+        "AI-powered platform connecting workers with employers",
+        "Built with modern web technologies and cloud deployment",
+        "Real-time matching and communication features"
+      ]
     },
     {
-      "title": "GitCast",
+      "title": "Movie Recommender",
       "startDate": "2023",
       "images": [
-        "images/project images/gitcast_image.png"
+        "images/project images/recommender_online.png"
       ],
-      "url": "https://github.com/nishan7/Google-Colab-Torrent-Downloader"
-    },
-    {
-      "title": "Recommender-Online",
-      "startDate": "2023",
-      "images": [
-        "images/project images/bridgeworks_image.png"
-      ],
-      "url": "https://github.com/nishan7/Recommender-Online"
+      "url": "https://github.com/nishan7/IMDb-Recommender",
+      "bullets": [
+        "Flask app using cosine similarity on MovieLens dataset for personalized movie recommendations",
+        "REST API serving recommendations via TMDb IDs with poster images",
+        "Content-based filtering using user preferences and movie feature vectors"
+      ]
     }
   ],
   "experience": [
